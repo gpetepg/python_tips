@@ -12,10 +12,9 @@ Tips 1 topics:
  - Mutable parameters
 
 Tips 2 topics (WIP):
-Built in libraries such as:
- - Itertools
- - Functools.. reduce, partial
- - Collections
+ - Itertools (built-in library)
+ - Functools (built-in library) reduce, partial.. etc.
+ - Collections (built-in library)
  - Decorators
  - Class Inheritance.
  - Generators
