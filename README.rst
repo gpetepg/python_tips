@@ -3,18 +3,18 @@ Let me know if you want to see other file types, plain .py files of course but R
 Tips 1 topics:
  - Lambda functions
  - Enumerate
- - List comprehension
+ - List, set and dict comprehension
  - Map
  - Filter 
- - Reduce
  - Zip
  - Print formatting
- - To add... args, kwargs and sets
+ - Args and kwargs 
+ - Mutable parameters
 
 Tips 2 topics (WIP):
- - Built in libraries such as
- - Itertools
- - Functools
- - Collections
- - dict comprehension (maybe)
- - Also Classes and Inheritance.
+ - Itertools (built-in library)
+ - Functools (built-in library) reduce, partial.. etc.
+ - Collections (built-in library)
+ - Decorators
+ - Class Inheritance.
+ - Generators
