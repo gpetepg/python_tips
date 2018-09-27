@@ -18,3 +18,4 @@ Tips 2 topics (WIP):
  - Decorators
  - Class Inheritance.
  - Generators
+ - Datetime (built-in library)
