@@ -10,6 +10,8 @@ These files are .ipynb. It is a notebook document used by Jupyter Notebook, an i
 I suggest downloading `Anaconda <https://www.anaconda.com/>`_.
 Anaconda is a free and open source distribution of the Python and R programming languages that aims to simplify package management and deployment. Jupyter Notebook is included in Anaconda.
 
+I will most likey seperate out functools, iterools and collection into their own .ipynb files. Let me know how I should organize these.
+
 Tips 1 topics:
  - Lambda functions
  - Enumerate
