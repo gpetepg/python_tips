@@ -5,7 +5,7 @@ Python Tips
 Please clone or fork, the notebooks are meant to be interacted with.
 --------------------------------------------------------------------
 
-These files are .ipynb. It is a notebook document used by Jupyter Notebook, an interactive computational environment designed to help scientists work with the Python language.
+These files are .ipynb. It is a notebook document used by Jupyter Notebook, an interactive computational environment designed to help scientists work with the Python language (as well as Julia and R).
 
 I suggest downloading `Anaconda <https://www.anaconda.com/>`_.
 Anaconda is a free and open source distribution of the Python and R programming languages that aims to simplify package management and deployment. Jupyter Notebook is included in Anaconda.
