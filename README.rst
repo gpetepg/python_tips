@@ -5,27 +5,32 @@ Python Tips
 Please clone or fork, the notebooks are meant to be interacted with.
 --------------------------------------------------------------------
 
-These files are .ipynb. It is a notebook document used by Jupyter Notebook, an interactive computational environment designed to help scientists work with the Python language.
+Note that these were written in Python 3 (3.6)
+
+These files are .ipynb. It is a notebook document used by Jupyter Notebook, an interactive computational environment designed to help scientists work with the Python language (as well as Julia and R).
 
 I suggest downloading `Anaconda <https://www.anaconda.com/>`_.
 Anaconda is a free and open source distribution of the Python and R programming languages that aims to simplify package management and deployment. Jupyter Notebook is included in Anaconda.
 
-Tips 1 topics:
+Please feel free to contribute, critique and comment.
+
+Python Tips topics:
  - Lambda functions
  - Enumerate
- - List, set and dict comprehension
+ - Comprehension (list, set, dict)
  - Map
  - Filter 
  - Zip
  - Print formatting
  - Args and kwargs 
+ - Class Inheritance
  - Mutable parameters
 
-Tips 2 topics (WIP):
- - Itertools (built-in library)
- - Functools (built-in library) reduce, partial.. etc.
- - Collections (built-in library)
- - Decorators
- - Class Inheritance.
+Built-In Libraries Tips topics:
  - Generators
+ - Itertools (built-in library)
+ - Collections (built-in library)
+ - Decorators (Property decorators: getters, setters, deleters)
+ - Functools (built-in library) reduce, partials.
  - Datetime (built-in library)
+ 
