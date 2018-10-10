@@ -14,7 +14,7 @@ Anaconda is a free and open source distribution of the Python and R programming 
 
 Please feel free to contribute, critique and comment.
 
-Python Tips topics:
+Python Tips Topics:
  - Lambda functions
  - Enumerate
  - Comprehension (list, set, dict)
@@ -26,7 +26,7 @@ Python Tips topics:
  - Class Inheritance
  - Mutable parameters
 
-Built-In Libraries Tips topics:
+Built-In Libraries Tips Topics:
  - Generators
  - Itertools (built-in library)
  - Collections (built-in library)
