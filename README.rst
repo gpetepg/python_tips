@@ -30,11 +30,7 @@ Built-In Libraries Tips topics:
  - Generators
  - Itertools (built-in library)
  - Collections (built-in library)
- - Decorators
- - Functools (built-in library) reduce, partial.. etc.
+ - Decorators (Property decorators: getters, setters, deleters)
+ - Functools (built-in library) reduce, partials.
  - Datetime (built-in library)
  
- Built-In Functions Tips 1(WIP):
- - Built-in Functions
- 
-
