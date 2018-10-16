@@ -25,12 +25,13 @@ Python Tips Topics:
  - Args and kwargs 
  - Class Inheritance
  - Mutable parameters
+ - Recursion
 
 Built-In Libraries Tips Topics:
  - Generators
  - Itertools (built-in library)
  - Collections (built-in library)
  - Decorators (Property decorators: getters, setters, deleters)
- - Functools (built-in library) reduce, partials.
+ - Functools (built-in library)
  - Datetime (built-in library)
  
