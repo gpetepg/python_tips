@@ -12,6 +12,8 @@ These files are .ipynb. It is a notebook document used by Jupyter Notebook, an i
 I suggest downloading `Anaconda <https://www.anaconda.com/>`_.
 Anaconda is a free and open source distribution of the Python and R programming languages that aims to simplify package management and deployment. Jupyter Notebook is included in Anaconda.
 
+I've included an inline `python tutor <http://www.pythontutor.com/>`_. Just uncomment it and run the cell to use.
+
 Please feel free to contribute, critique and comment.
 
 Python Tips Topics:
