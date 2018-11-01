@@ -5,7 +5,7 @@ Python Tips
 Please clone or fork, the notebooks are meant to be interacted with.
 --------------------------------------------------------------------
 
-If the page won't load copy the link to the .ipynb and drop it `here <https://nbviewer.jupyter.org/>`_. to view.
+If the page won't load copy the link to the .ipynb and drop it `here <https://nbviewer.jupyter.org/>`_ to view.
 
 Note that these were written in Python 3 (3.6)
 
