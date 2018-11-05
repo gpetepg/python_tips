@@ -27,7 +27,7 @@ Python Tips Topics:
  - Zip
  - Print formatting
  - Args and kwargs 
- - Class Inheritance
+ - Class Inheritance and Private Methods
  - Mutable parameters
  - Recursion
 
