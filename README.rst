@@ -21,22 +21,22 @@ Please feel free to contribute, critique and comment.
 Python Tips Topics:
  - Lambda functions
  - Enumerate
- - Comprehension (list, set, dict)
+ - Comprehension (List, set, dict)
  - Map
  - Filter 
  - Zip
  - Print formatting
  - Args and kwargs 
- - Class inheritance and Private methods
+ - Class inheritance and private methods
  - Mutable parameters
  - Recursion
 
 Built-In Libraries Tips Topics:
  - Generators
- - Itertools (built-in library)
- - Collections (built-in library)
- - Decorators (Property decorators: getters, setters, deleters)
- - Functools (built-in library)
- - Datetime (built-in library)
- - OS (built-in library)
+ - Itertools (Built-in library)
+ - Collections (Built-in library)
+ - Decorators Property decorators (getters, setters and deleters), static methods and class methods
+ - Functools (Built-in library)
+ - Datetime (Built-in library)
+ - OS (Built-in library)
  
