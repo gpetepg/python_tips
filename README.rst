@@ -2,10 +2,13 @@
 Python Tips
 ===========
 
-Please clone or fork, the notebooks are meant to be interacted with.
---------------------------------------------------------------------
+Please clone or fork, the notebooks are meant to be interacted with. The TOC do not work on GitHib.
+---------------------------------------------------------------------------------------------------
 
-If the page won't load copy the link to the .ipynb and drop it `here <https://nbviewer.jupyter.org/>`_ to view.
+If the page notebooks won't load on GitHub view them here:
+`Python Tips<https://nbviewer.jupyter.org/github/gpetepg/python_tips/blob/master/python_tips.ipynb/>`_.
+`Built-In-Libraries<https://nbviewer.jupyter.org/github/gpetepg/python_tips/blob/master/built_in_library_tips.ipynb/>`_.
+
 
 Note that these were written in Python 3 (3.6)
 
