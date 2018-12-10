@@ -22,6 +22,7 @@ I've included an inline `python tutor <http://www.pythontutor.com/>`_. Just unco
 Please feel free to contribute, critique and comment.
 
 Python Tips Topics:
+ - Additional Operators
  - Lambda functions
  - Enumerate
  - Comprehension (List, set, dict)
