@@ -40,6 +40,7 @@ Built-In Libraries Tips Topics:
  - Itertools (Built-in library)
  - Collections (Built-in library)
  - Decorators: Property decorators (getters, setters and deleters), static methods and class methods
+ - Method Chaining
  - Functools (Built-in library)
  - Datetime (Built-in library)
  - OS (Built-in library)
