@@ -14,6 +14,13 @@ import numpy as np
 # pd.set_option('display.width', 1000)
 
 def create_table_from_metadata(table_name, db_uri, echo=False):
+    """
+    
+    :param table_name: str; Name of the table you want to copy into a DataFrame
+    :param db_uri: str; Database connection string
+    :param echo: bool; True if you want to see the sql, False if not
+    :return: copied_dataframe; pd.DataFrame
+    """
     metadata = MetaData()
     engine = create_engine(
         db_uri,
@@ -24,21 +31,45 @@ def create_table_from_metadata(table_name, db_uri, echo=False):
     table = Table(table_name, metadata, autoload=True, autoload_with=engine)
     result = connection.execute(table.select())
     result_list = [row for row in result]
-    df = pd.DataFrame(result_list, columns=table.columns.keys())
-    return df
+    copied_dataframe = pd.DataFrame(result_list, columns=table.columns.keys())
+    return copied_dataframe
 
-
-##### Add addtional columns #####
 
 def add_addtional_columns(dataframe_needing_cols, list_of_cols):
+    """
+    
+    :param dataframe_needing_cols: pd.DataFrame; DataFrame needing columns added
+    :param list_of_cols: list(); List of the columns to be added
+    :return: datafame_with_cols_added; pd.DataFrame
+    """
     datafame_with_cols_added = pd.concat([
-    dataframe_needing_cols,
-    pd.DataFrame([
-        [np.nan] * len(list_of_cols) for col_names in range(df.shape[0])],
-        df.index,
-        list_of_cols)],
+        dataframe_needing_cols,
+        pd.DataFrame([
+            [np.nan] * len(list_of_cols) for col_names in range(df.shape[0])],
+            df.index,
+            list_of_cols)],
         axis=1
     )
     return datafame_with_cols_added
 
 #####
+
+"""
+df = pd.read_csv("grades.csv")
+
+aggregation = {
+    "grades" : {. # Which column to work on
+        "highest gread" : "max" # We give a name to the aggregate column and what function we want applied there
+    }
+}
+
+# Add our where, groupby and aggregation
+newdf = df[df["last_name"] == "Guo"].groupby("month").agg(aggregation)
+
+# We ravel() to join the newly named column with the aggregation function for readability
+newdf.columns = ["_".join(col) for col in newdf.columns.ravel()]
+
+# We reset it to make it look pretty like Manda
+newdf.reset_index()
+
+"""
