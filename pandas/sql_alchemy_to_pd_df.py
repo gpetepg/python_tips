@@ -45,8 +45,8 @@ def add_addtional_columns(dataframe_needing_cols, list_of_cols):
     datafame_with_cols_added = pd.concat([
         dataframe_needing_cols,
         pd.DataFrame([
-            [np.nan] * len(list_of_cols) for col_names in range(df.shape[0])],
-            df.index,
+            [np.nan] * len(list_of_cols) for col_names in range(dataframe_needing_cols.shape[0])],
+            dataframe_needing_cols.index,
             list_of_cols)],
         axis=1
     )
