@@ -72,4 +72,7 @@ newdf.columns = ["_".join(col) for col in newdf.columns.ravel()]
 # We reset it to make it look pretty like Manda
 newdf.reset_index()
 
+
+Find column and row and assign it
+t.loc[(t["ID"] == 1938), "BATCHID"] = [1,2,3,4]
 """
