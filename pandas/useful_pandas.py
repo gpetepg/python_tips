@@ -52,6 +52,24 @@ def add_addtional_columns(dataframe_needing_cols, list_of_cols):
     )
     return datafame_with_cols_added
 
+def subset_of_df(df, row_names, col_names):
+    """
+    
+    """
+    return df[col_names].loc[row_names]
+
+
+def apply_function(df, function, row_or_col=None, rows_or_cols=None):
+    """
+    
+    """
+    if row_or_col == "col".lower():
+        df[rows_or_cols] = df[rows_or_cols].apply(function)
+        return df
+    elif row_or_col == "row".lower():
+        df.loc[rows_or_cols] = df.loc[rows_or_cols].apply(function)
+        return df
+
 #####
 
 """
