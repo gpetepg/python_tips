@@ -22,6 +22,7 @@ Please feel free to contribute, critique and comment.
 
 General Tips Topics:
 ----------------------------------------
+Topics
  - Additional Operators
  - Enumerate
  - Comprehension; List, Set, Dict
