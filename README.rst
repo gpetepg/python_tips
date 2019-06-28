@@ -20,12 +20,12 @@ I've included an inline `python tutor <http://www.pythontutor.com/>`_. Just unco
 
 Please feel free to contribute, critique and comment.
 
-General Tips Topics:
+**General Tips Topics:**
  - Additional Operators
  - Enumerate
  - Comprehension; List, Set, Dict
  
-Functions and Classes Topics:
+**Functions and Classes Topics:**
 
 Functions
  - Generators
@@ -43,7 +43,7 @@ Classes
  - Method Chaining
  - Property Decorators; Getters, Setters, Deleters
 
-Built-In Functions and Libraries Topics:
+**Built-In Functions and Libraries Topics:**
 
 Functions
  - Map
