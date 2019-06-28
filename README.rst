@@ -9,7 +9,6 @@ If the page notebooks won't load on GitHub view them here:
  - `Python Tips <https://nbviewer.jupyter.org/github/gpetepg/python_tips/blob/master/python_tips.ipynb/>`_.
  - `Built-In-Libraries <https://nbviewer.jupyter.org/github/gpetepg/python_tips/blob/master/built_in_library_tips.ipynb/>`_.
 
-
 Note that these were written in Python 3 (3.6)
 
 These files are .ipynb. It is a notebook document used by Jupyter Notebook, an interactive computational environment designed to help scientists work with the Python language (as well as many others e.g. R, Julia, Ruby, JavaScript).
@@ -21,27 +20,46 @@ I've included an inline `python tutor <http://www.pythontutor.com/>`_. Just unco
 
 Please feel free to contribute, critique and comment.
 
-Python Tips Topics:
+General Tips Topics:
  - Additional Operators
- - Lambda functions
  - Enumerate
- - Comprehension (List, set, dict)
- - Map
- - Filter 
- - Zip
- - Print formatting
- - Args and kwargs 
- - Class inheritance and "private methods"
- - Mutable parameters
+ - Comprehension; List, Set, Dict
+ 
+Functions and Classes Topics:
+
+Functions
+ - Generators
+ - Args and Kwargs
+ - Lambda Functions
+ - Mutable Parameters
+ - Decorators
  - Recursion
 
-Built-In Libraries Tips Topics:
- - Generators
- - Itertools (Built-in library)
- - Collections (Built-in library)
- - Decorators: Property decorators (getters, setters and deleters), static methods and class methods
+Classes
+ - Class Inheritance
+ - "Private Methods"
+ - Str and Repr
+ - Static and Class Methods
  - Method Chaining
- - Functools (Built-in library)
- - Datetime (Built-in library)
- - OS (Built-in library)
- 
+ - Property Decorators; Getters, Setters, Deleters
+
+Built-In Functions and Libraries Topics:
+
+Functions
+ - Map
+ - Filter
+ - Zip
+ - Print Formatting
+ - Multiline comments
+ - Formatting
+ - Str and Repr
+
+Libraries
+ - Itertools
+ - Infinite Itorators
+ - Iterators Terminating On The Shortest Input Sequence
+ - Combinatoric Iterators
+ - Collections
+ - Functools
+ - Datetime
+ - OS
