@@ -2,6 +2,8 @@
 Python Tips
 ===========
 
+These tips are for beginner to intermediate Pythonistas who have a bit of experience with the language. I focused on general Python tips that I think are good to know.
+
 Please clone or fork, the notebooks are meant to be interacted with. The TOC do not work on GitHib.
 ---------------------------------------------------------------------------------------------------
 
