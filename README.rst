@@ -22,6 +22,10 @@ I've included an inline `python tutor <http://www.pythontutor.com/>`_. Just unco
 
 Please feel free to contribute, critique and comment.
 
+---
+These tips are for beginner to intermediate Pythonistas who have a bit of experience with the language. I focused on general Python tips I think that are good to know.
+---
+
 General Tips:
 ----------------------------------------
 Topics
