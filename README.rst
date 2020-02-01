@@ -69,3 +69,7 @@ Libraries
  - Functools
  - Datetime
  - OS
+ 
+Random Tips:
+----------------------------------------
+- Random assortment of tips that did not fit the other notebooks
