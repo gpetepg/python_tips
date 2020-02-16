@@ -30,6 +30,7 @@ General Tips:
 ----------------------------------------
 Topics
  - Additional Operators
+ - Global
  - Enumerate
  - Comprehension; List, Set, Dict
  
