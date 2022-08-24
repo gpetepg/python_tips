@@ -11,7 +11,7 @@ If the page notebooks won't load on GitHub view them here:
  - `Python Tips <https://nbviewer.jupyter.org/github/gpetepg/python_tips/blob/master/python_tips.ipynb/>`_.
  - `Built-In-Libraries <https://nbviewer.jupyter.org/github/gpetepg/python_tips/blob/master/built_in_library_tips.ipynb/>`_.
 
-Note that these were written in Python 3 (3.6)
+Note that these were written in Python 3 (3.8.X).
 
 These files are .ipynb. It is a notebook document used by Jupyter Notebook, an interactive computational environment designed to help scientists work with the Python language (as well as many others e.g. R, Julia, Ruby, JavaScript).
 
